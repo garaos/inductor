@@ -3,7 +3,7 @@ import { NavContext } from '../context/NavContext';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import gon from '../img/gon-03.png'
+import induct3 from '../img/inductor-03.png'
 import styles from '../styles/Header.module.css';
 
 
@@ -11,7 +11,7 @@ import styles from '../styles/Header.module.css';
 const Header = () => {
   const { activeLinkId } = useContext(NavContext);
 
-  const navLinks = ['Home', 'About', 'Skills', 'Portfolio', 'Contact'];
+  const navLinks = ['Home', 'Nosotros', 'Proyectos', 'Contacto'];
 
   const handleClickLogo = () => {
     document.getElementById('homeSection').scrollIntoView({ behavior: "smooth" })
@@ -40,7 +40,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.navContainer}>
-          <img src={gon} alt="ico" onClick={handleClickLogo} className="gonB" />
+          <img src={induct3} alt="ico" onClick={handleClickLogo} className="gonB" />
           <Navbar expand="lg" variant="dark">
             <Container>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />

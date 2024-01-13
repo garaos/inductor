@@ -1,6 +1,6 @@
 {
-  "homepage":"https://garaos.github.io/project6",
-  "name": "portfolio",
+  "homepage":"www.inductor.cl",
+  "name": "inductor",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
